@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BuildDir>$(SolutionDir)Build\$(PlatformShortName)\$(Configuration)\</BuildDir>
+    <IntermediateDir>$(BuildDir)intermediates\$(ProjectName)\</IntermediateDir>
+    <BinDir>$(BuildDir)bin\</BinDir>
+    <GameDir>$(BuildDir)game\</GameDir>
+    <AuthoredAssetDir>$(SolutionDir)Assets\</AuthoredAssetDir>
+    <BuiltAssetDir>$(GameDir)data\</BuiltAssetDir>
+    <ScriptDir>$(SolutionDir)Scripts\</ScriptDir>
+    <SourceLicenseDir>$(SolutionDir)Licenses\</SourceLicenseDir>
+    <TargetLicenseDir>$(GameDir)licenses\</TargetLicenseDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="BuildDir">
+      <Value>$(BuildDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="IntermediateDir">
+      <Value>$(IntermediateDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BinDir">
+      <Value>$(BinDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="GameDir">
+      <Value>$(GameDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="AuthoredAssetDir">
+      <Value>$(AuthoredAssetDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BuiltAssetDir">
+      <Value>$(BuiltAssetDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ScriptDir">
+      <Value>$(ScriptDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SourceLicenseDir">
+      <Value>$(SourceLicenseDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="TargetLicenseDir">
+      <Value>$(TargetLicenseDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

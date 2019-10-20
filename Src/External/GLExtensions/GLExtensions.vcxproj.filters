@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="32686\wglext.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="33061\glext.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GLExtensions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{10d3a255-6421-48b6-99df-e426cfe3104a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{faa301bb-2218-4fce-bfcf-602efe717fc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Windows\GLExtensions.WIN.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

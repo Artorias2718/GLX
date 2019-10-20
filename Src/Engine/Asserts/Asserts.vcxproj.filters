@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Asserts.cpp" />
+    <ClCompile Include="Windows\Asserts.win.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asserts.h" />
+    <ClInclude Include="Configuration.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{39d4d64e-b847-4b8f-a068-64c76cfb36c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
